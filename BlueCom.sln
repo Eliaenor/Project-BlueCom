@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlueCom Serveur", "BlueCom Serveur\BlueCom Serveur.vcxproj", "{9263A8FA-88B8-48E5-B00A-B2FD31485625}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlueCom Client", "BlueCom Client\BlueCom Client.vcxproj", "{279D62DC-F93C-4BE1-8169-2272E2E8CADE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{CFF504E2-E60A-4599-90EB-B04EE1C3AB8F}"
+	ProjectSection(SolutionItems) = preProject
+		common\Utilities.h = common\Utilities.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CBC03EDE-2D8E-449E-B193-BFBFC48585F8}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://eliaenor.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BlueCom\u0020Serveur\\BlueCom\u0020Serveur.vcxproj
+		SccProjectName1 = BlueCom\u0020Serveur
+		SccLocalPath1 = BlueCom\u0020Serveur
+		SccProjectUniqueName2 = BlueCom\u0020Client\\BlueCom\u0020Client.vcxproj
+		SccProjectName2 = BlueCom\u0020Client
+		SccLocalPath2 = BlueCom\u0020Client
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9263A8FA-88B8-48E5-B00A-B2FD31485625}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9263A8FA-88B8-48E5-B00A-B2FD31485625}.Debug|Win32.Build.0 = Debug|Win32
+		{9263A8FA-88B8-48E5-B00A-B2FD31485625}.Release|Win32.ActiveCfg = Release|Win32
+		{9263A8FA-88B8-48E5-B00A-B2FD31485625}.Release|Win32.Build.0 = Release|Win32
+		{279D62DC-F93C-4BE1-8169-2272E2E8CADE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{279D62DC-F93C-4BE1-8169-2272E2E8CADE}.Debug|Win32.Build.0 = Debug|Win32
+		{279D62DC-F93C-4BE1-8169-2272E2E8CADE}.Release|Win32.ActiveCfg = Release|Win32
+		{279D62DC-F93C-4BE1-8169-2272E2E8CADE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

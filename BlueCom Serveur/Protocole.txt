@@ -1,0 +1,33 @@
+Format of [MSG] in a Serveur to Client case : "[Type(3)]/[ID(10)]/[Message(512)]" (Total :271 char)
+	exemples :
+				"MSG/56/Hello World !"
+				"NFO/15648/Bluetorsh's adresse is : bluetorsh@blueblue.com"
+				"ERR/0/Error 45"
+Changing for Message Serveur : "SRV/[Message ID(3)]/[info(512)]"
+
+List of Message ID :
+	END : Fin du groupe d'envoi.
+	000 : Message to display to all user.
+	001 : Add Channel.
+	002 : Edit Channel.
+	003 : Remove Channel.
+	004 : New user.
+	005 : Edit user.
+	006 : Remove user.
+	007 : Kick.
+	008 : Ban.
+	009 : Stop sound.
+	
+
+
+Protocole "New User" :
+					- [S]Get : ID
+					- [S]Get : Login (If "\TID" set Socket as Audio Socket)
+					- [S]Get : Description
+					- [S]Set : Right
+					- [S]Set : Text Socket
+					- [S]Set : User Type
+					- [S]Send to other : New User Info (ID, TID, Login, Right, Current Chan)
+					- [C]Get : New User Info
+					- [C]Set : New Buffer (Voice)
+ 
